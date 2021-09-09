@@ -8,7 +8,7 @@ public class Jokenpo {
 	public static void main(String[] args) {
 		
 		int escolha, numeroSorteado;
-		String opçãoDesejada, opçãoPC;
+		String opcaoDesejada, opcaoPC;
 		
 		Scanner leitor = new Scanner(System.in);
 		
@@ -29,27 +29,27 @@ public class Jokenpo {
 		System.out.println();
 		
 		if(escolha == 1) {
-			opçãoDesejada = "Pedra";
-			System.out.println("Você escolheu: " + opçãoDesejada);
+			opcaoDesejada = "Pedra";
+			System.out.println("Você escolheu: " + opcaoDesejada);
 		} else if(escolha == 2) {
-			opçãoDesejada = "Papel";
-			System.out.println("Você escolheu: " + opçãoDesejada);
+			opcaoDesejada = "Papel";
+			System.out.println("Você escolheu: " + opcaoDesejada);
 		} else if(escolha == 3) {
-			opçãoDesejada = "Tesoura";
-			System.out.println("Você escolheu: " + opçãoDesejada);
+			opcaoDesejada = "Tesoura";
+			System.out.println("Você escolheu: " + opcaoDesejada);
 		} else {
 			System.out.println("Opção inválida.");
 		}
 		
 		if(numeroSorteado == 1) {
-			opçãoPC = "Pedra";
-			System.out.println("O PC escolheu: " + opçãoPC);
+			opcaoPC = "Pedra";
+			System.out.println("O PC escolheu: " + opcaoPC);
 		} else if(numeroSorteado == 2) {
-			opçãoPC = "Papel";
-			System.out.println("O PC escolheu: " + opçãoPC);
+			opcaoPC = "Papel";
+			System.out.println("O PC escolheu: " + opcaoPC);
 		} else {
-			opçãoPC = "Tesoura";
-			System.out.println("O PC escolheu: " + opçãoPC);
+			opcaoPC = "Tesoura";
+			System.out.println("O PC escolheu: " + opcaoPC);
 		} 
 			
 		
